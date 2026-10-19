@@ -1,53 +1,27 @@
 <template>
-  <section class="hero relative isolate h-[60vh] min-h-[360px] overflow-hidden">
-    <div class="hero-background absolute inset-0" aria-hidden="true" />
-    <div class="hero-grid absolute inset-0" aria-hidden="true" />
-    <div class="hero-orb hero-orb-blue absolute" aria-hidden="true" />
-    <div class="hero-orb hero-orb-orange absolute" aria-hidden="true" />
-  </section>
+  <img class="hero relative isolate h-[60vh] min-h-90 w-full overflow-hidden object-cover"
+    src="../assets/pic/home-bg-3.jpg" />
 
-  <div class="h-screen"></div>
+  <section class="overview relative overflow-hidden bg-white px-6 py-12 md:px-12 md:py-28">
+
+    <article class="relative mx-auto max-w-5xl">
+      <h2 class="max-w-3xl text-3xl font-semibold leading-tight tracking-tight text-slate-900 md:text-5xl">
+        {{ t('home.overview.title') }}
+      </h2>
+
+      <div class="my-10 h-px bg-linear-to-r from-cyan-200 via-slate-200 to-transparent" aria-hidden="true" />
+
+      <p class="max-w-4xl text-base leading-8 text-slate-600 md:text-lg md:leading-9">
+        {{ t('home.overview.description') }}
+      </p>
+    </article>
+  </section>
 </template>
 
-<script lang="ts" setup>
+<script setup lang="ts">
 import { useI18n } from 'vue-i18n'
 
 const { t } = useI18n()
 </script>
 
-<style scoped>
-.hero-background {
-  background:
-    radial-gradient(circle at 78% 18%, rgba(125, 211, 252, 0.48), transparent 28%),
-    radial-gradient(circle at 18% 82%, rgba(196, 181, 253, 0.48), transparent 32%),
-    linear-gradient(132deg, #f8fafc 0%, #e0f2fe 42%, #ede9fe 70%, #ffedd5 135%);
-}
-
-.hero-grid {
-  background-image: linear-gradient(rgba(71, 85, 105, 0.1) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(71, 85, 105, 0.1) 1px, transparent 1px);
-  background-size: 72px 72px;
-  mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), transparent 78%);
-  opacity: 0.5;
-}
-
-.hero-orb {
-  border-radius: 9999px;
-  filter: blur(90px);
-  height: 22rem;
-  pointer-events: none;
-  width: 22rem;
-}
-
-.hero-orb-blue {
-  background: rgba(56, 189, 248, 0.38);
-  left: -9rem;
-  top: 16%;
-}
-
-.hero-orb-orange {
-  background: rgba(251, 191, 36, 0.32);
-  bottom: -8rem;
-  right: -6rem;
-}
-</style>
+<style scoped></style>

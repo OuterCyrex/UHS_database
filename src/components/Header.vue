@@ -1,13 +1,17 @@
 <template>
   <header
     class="fixed inset-x-0 top-0 z-50 flex h-16 items-center justify-between px-8 py-4 border-b transition-colors duration-300"
-    :class="shouldShowBackground ? 'bg-white border-slate-200' : 'bg-transparent border-transparent'">
-    <div class="text-2xl font-semibold text-slate-700">
+    :class="shouldShowBackground ? 'bg-gray-100 border-gray-200' : 'bg-transparent border-transparent'">
+    <div class="text-2xl font-semibold text-mist-500">
       {{ t('home.title') }}
     </div>
 
     <div class="flex gap-3">
-      <el-button link>
+      <el-button link @click="goToHome">
+        <span class="text-lg">{{ t('home.buttons.home') }}</span>
+      </el-button>
+
+      <el-button link @click="goToSearch">
         <span class="text-lg">{{ t('home.buttons.search') }}</span>
       </el-button>
 
@@ -42,12 +46,13 @@
 import { ArrowDown } from '@element-plus/icons-vue'
 import { computed, onMounted, onUnmounted, ref } from 'vue'
 import { useI18n } from 'vue-i18n'
-import { useRoute } from 'vue-router'
+import { useRoute, useRouter } from 'vue-router'
 
 import type { SupportedLocale } from '@/i18n/translator'
 
 const { t, locale } = useI18n()
 const route = useRoute()
+const router = useRouter()
 
 const headerRef = ref<HTMLElement | null>(null)
 const isScrolled = ref(false)
@@ -61,6 +66,14 @@ const updateHeaderBackground = () => {
 
 const switchLocale = (nextLocale: SupportedLocale) => {
   locale.value = nextLocale
+}
+
+const goToHome = () => {
+  router.push('/')
+}
+
+const goToSearch = () => {
+  router.push('/search')
 }
 
 onMounted(() => {

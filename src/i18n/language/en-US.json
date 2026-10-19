@@ -2,6 +2,7 @@
     "home": {
         "title": "UHS Multi-scale Parameters Database",
         "buttons": {
+            "home": "Home",
             "search": "Search",
             "about": "About",
             "language": {
@@ -11,6 +12,47 @@
                     "zh-CN": "Chinese (zh-CN)"
                 }
             }
+        },
+        "overview": {
+            "label": "Research overview",
+            "tag": "Pore-scale UHS",
+            "title": "Underground hydrogen storage at pore scale",
+            "description": "Underground hydrogen storage (UHS) has been identified as a promising technology with which a large-scale hydrogen economy can be established [1–6]. In UHS, large amounts of hydrogen gas (H2) can be effectively stored in geological formations (e.g. empty salt caverns [1,2,7], deep aquifers [8,9], depleted hydrocarbon reservoirs, or underground coal seams [10–12]) rapidly and safely. Storage times can range from months to years, depending on the specific energy demands [1,6]. Previously, salt caverns were demonstrated to be feasible UHS storage sites, while UHS in depleted hydrocarbon reservoirs, coal beds or deep aquifers is still under investigation [6], despite the fact that such sedimentary reservoirs are abundant and geographically widespread [13]. One key aspect of assessing the feasibility of such sedimentary reservoirs (note that these reservoirs typically have siliciclastic, carbonatic or maceral origins, and they are thus porous [13]) for UHS is the behaviour of H2 in the pore network of the storage rock at true storage conditions (i.e. high pressure and elevated temperature). These porescale effects determine the associated multi-phase reservoir fluid dynamics (note that H2 and formation brine co-exist in the pore space, and can in principle flow simultaneously as brine is always present in such porous formations [14]). Therefore, containment security, storage capacity and potential H2 injection and withdrawal rates are determined by such pore-scale effects [15]. However, a critical review of these porescale phenomena and how they are associated with UHS at large scale is currently lacking. Therefore, herein, pore-scale UHS processes are critically reviewed, and their reservoir-scale effects are discussed. Furthermore, major differences between UHS, CO2 geo-storage (CGS) and natural gas storage are highlighted, and future research directions are outlined. This review will therefore advance the fundamental technical understanding of UHS, provide guidance for UHS project operations at large scale, encourage climate change mitigation researchers to focus more on UHS studies, and provide an overview of the current state of the art. This review is also written to act as an entry point for new researchers in this area."
         }
+    },
+    "search": {
+        "title": "Search the UHS database",
+        "description": "Filter multi-scale UHS parameters by sample, fluid system and experimental conditions.",
+        "results": "records",
+        "empty": "No records match the current filters.",
+        "filters": {
+            "title": "Query filters",
+            "reset": "Reset",
+            "keyword": "Keyword",
+            "parameter": "Parameter",
+            "category": "Parameter category",
+            "rockType": "Rock type",
+            "fluidSystem": "Fluid system",
+            "temperature": "Temperature (°C)",
+            "pressure": "Pressure (MPa)",
+            "minCalcite": "Min calcite (%)"
+        },
+        "table": {
+            "sample": "Sample",
+            "category": "Category",
+            "parameter": "Parameter",
+            "rock": "Rock",
+            "fluid": "Fluid system",
+            "condition": "Conditions",
+            "result": "Result",
+            "source": "Source",
+            "composition": "Sample composition",
+            "fluidConditions": "Fluid conditions",
+            "measurement": "Measurement",
+            "provenance": "Provenance"
+        }
+    },
+    "footer": {
+        "description": "A research entry point for underground hydrogen storage."
     }
 }
