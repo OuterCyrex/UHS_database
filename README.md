@@ -53,4 +53,4 @@ UHS 科研数据库是一个面向地下储氢（Underground Hydrogen Storage, U
 - Digital Porous Media Portal：多孔介质图像与实验测量数据库，按项目组织、发 DOI，与本项目数据形态最接近
 - NOMAD：材料科学领域同时收录计算与实验数据的开放仓库，其元数据 schema 设计值得参考
 - HyDRA：欧洲 UHS 多孔储层站点数据库，托管于 Zenodo，有 DOI
-- re3data：全球研究数据仓库注册库，可用于检索各领域数据库的字段组织和治理模式
+- re3data：全球研究数据仓库注册库，可用于检索各领域数据库的字段组织和治理模式 (https://www.re3data.org/)

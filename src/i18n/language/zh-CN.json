@@ -1,0 +1,16 @@
+{
+    "home": {
+        "title": "地下储氢多尺度参数数据库",
+        "buttons": {
+            "search": "搜索",
+            "about": "关于",
+            "language": {
+                "title": "语言",
+                "options": {
+                    "en-US": "英文 (en-US)",
+                    "zh-CN": "中文 (zh-CN)"
+                }
+            }
+        }
+    }
+}

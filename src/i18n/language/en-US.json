@@ -1,0 +1,16 @@
+{
+    "home": {
+        "title": "UHS Multi-scale Parameters Database",
+        "buttons": {
+            "search": "Search",
+            "about": "About",
+            "language": {
+                "title": "Language",
+                "options": {
+                    "en-US": "English (en-US)",
+                    "zh-CN": "Chinese (zh-CN)"
+                }
+            }
+        }
+    }
+}
