@@ -21,13 +21,30 @@
         }
     },
     "database": {
+        "aboutLabel": "数据库简介",
+        "aboutTitle": "地下储氢孔隙尺度实验数据的整理与检索",
+        "aboutText": "这是一个面向地下储氢（UHS）研究的实验数据数据库，集中整理岩石样品、流体体系、实验条件及其测量结果。研究者可以组合样品组成、盐水与油相条件以及温度和压力，查找实验背景相近的记录，并比较对应的润湿性测量。",
+        "stats": {
+            "records": "数据条目",
+            "dois": "DOI 数量",
+            "contributors": "贡献者"
+        },
         "heroAlt": "地下储氢研究场景",
         "eyebrow": "数据库概况 / 当前收录",
         "title": "从地下储氢数据库中已收录实验数据开始探索",
         "intro": "当前数据库整理了地下储氢相关孔隙尺度实验中的接触角数据。可按样品组成、流体条件和实验温压筛选记录，并查看前进与后退接触角。",
         "metrics": { "records": "实验记录", "sources": "文献来源", "outcomes": "已覆盖结果类型", "temperature": "实验温度范围" },
         "coverageTitle": "当前数据收录",
-        "coverageIntro": "本页数字根据当前整理的数据表统计；暂未覆盖的条件和结果类型会在下方注明。",
+        "coverageIntro": "以下列出当前记录中实际包含的样品、流体、实验条件与测量结果。",
+        "recentEyebrow": "数据动态",
+        "recentTitle": "近期新上传数据",
+        "recentFields": {
+            "uploadedAt": "上传日期",
+            "doi": "DOI",
+            "contributors": "贡献者",
+            "dataVolume": "数据量",
+            "recordsUnit": "条"
+        },
         "academicLabel": "研究背景",
         "academicTitle": "孔隙尺度过程与地下储氢",
         "academicText": "在枯竭油气藏和深层含水层等多孔地层中，氢气与地层水共同占据孔隙空间。岩石表面的润湿性会影响两相流体在孔隙中的分布及其界面行为，并进一步关联毛细压力、相对渗透率和流体运移。因此，接触角等孔隙尺度测量可为理解地下储氢过程中的封存与注采行为提供实验依据。",
@@ -39,6 +56,7 @@
         "wettability": "润湿性 / 接触角",
         "outcomeTitle": "当前可查询结果",
         "outcomeDescription": "现阶段数据集中已有的结果参数为润湿性，以前进接触角（θA）和后退接触角（θR）表示。",
+        "outcomeRange": "前进接触角 {advancing}；后退接触角 {receding}",
         "advancingAngle": "前进接触角 θA",
         "recedingAngle": "后退接触角 θR",
         "conditionsTitle": "记录中包含的实验条件",
@@ -48,7 +66,6 @@
         "fluidValue": "盐水离子强度、油相含量",
         "experiment": "实验条件",
         "contactAngleMethod": "接触角数据",
-        "scopeNote": "孔隙度、渗透率、气体组成、盐度等条件字段尚未纳入当前数据表；密度、黏度、毛细压力等其他结果类型也暂时没有可查询记录。",
         "searchData": "浏览数据库记录"
     },
     "search": {
@@ -178,6 +195,12 @@
         }
     },
     "footer": {
-        "description": "地下储氢研究资料入口。"
+        "description": "地下储氢实验数据资源平台。",
+        "university": "中国石油大学（北京）",
+        "logoAlt": "中国石油大学（北京）校徽",
+        "address": "地址",
+        "addressValue": "北京市昌平区府学路18号",
+        "postalCode": "邮编",
+        "administratorEmail": "管理员信箱"
     }
 }

@@ -21,13 +21,30 @@
         }
     },
     "database": {
+        "aboutLabel": "About the database",
+        "aboutTitle": "Organizing and searching pore-scale UHS experiments",
+        "aboutText": "This database brings together experimental records relevant to underground hydrogen storage (UHS), including rock samples, fluid systems, test conditions, and measured outcomes. Researchers can combine sample composition, brine and oil-phase conditions, temperature, and pressure to find experiments with comparable backgrounds and compare their wettability measurements.",
+        "stats": {
+            "records": "Data entries",
+            "dois": "DOIs",
+            "contributors": "Contributors"
+        },
         "heroAlt": "Underground hydrogen storage research",
         "eyebrow": "Database overview / current coverage",
         "title": "Explore the experiments currently collected in UHSD",
         "intro": "The current database curates contact-angle measurements from pore-scale studies related to underground hydrogen storage. Records can be searched by sample composition, fluid conditions, and experimental temperature and pressure, with advancing and receding contact angles as outcomes.",
         "metrics": { "records": "Experimental records", "sources": "Literature sources", "outcomes": "Available outcome types", "temperature": "Temperature range" },
         "coverageTitle": "Current database coverage",
-        "coverageIntro": "Figures on this page are calculated from the currently curated dataset. Fields and outcomes not yet covered are noted below.",
+        "coverageIntro": "A concise inventory of the sample, fluid, test-condition, and measurement fields present in the current records.",
+        "recentEyebrow": "Data updates",
+        "recentTitle": "Recently uploaded data",
+        "recentFields": {
+            "uploadedAt": "Uploaded",
+            "doi": "DOI",
+            "contributors": "Contributors",
+            "dataVolume": "Data volume",
+            "recordsUnit": "records"
+        },
         "academicLabel": "Research context",
         "academicTitle": "Pore-scale processes in underground hydrogen storage",
         "academicText": "In porous formations such as depleted hydrocarbon reservoirs and deep aquifers, hydrogen coexists with formation water in the pore space. Rock wettability influences the distribution of these fluids and their interfacial behavior, which is connected to capillary pressure, relative permeability, and fluid transport. Pore-scale measurements such as contact angles therefore provide experimental evidence for understanding containment and injection-withdrawal behavior in underground hydrogen storage.",
@@ -39,6 +56,7 @@
         "wettability": "Wettability / contact angle",
         "outcomeTitle": "Available query result",
         "outcomeDescription": "The current dataset contains wettability measurements, represented by advancing (θA) and receding (θR) contact angles.",
+        "outcomeRange": "Advancing contact angle {advancing}; receding contact angle {receding}",
         "advancingAngle": "Advancing contact angle θA",
         "recedingAngle": "Receding contact angle θR",
         "conditionsTitle": "Conditions recorded in the dataset",
@@ -48,7 +66,6 @@
         "fluidValue": "Brine ionic strength, oil content",
         "experiment": "Experimental conditions",
         "contactAngleMethod": "Contact-angle measurements",
-        "scopeNote": "Porosity, permeability, gas composition, and salinity are not yet included as searchable fields. Other outcome types such as density, viscosity, and capillary pressure currently have no queryable records.",
         "searchData": "Browse database records"
     },
     "search": {
@@ -178,6 +195,12 @@
         }
     },
     "footer": {
-        "description": "A research entry point for underground hydrogen storage."
+        "description": "An experimental data resource for underground hydrogen storage research.",
+        "university": "China University of Petroleum (Beijing)",
+        "logoAlt": "China University of Petroleum (Beijing) emblem",
+        "address": "Address",
+        "addressValue": "No. 18 Fuxue Road, Changping District, Beijing, China",
+        "postalCode": "Postal code",
+        "administratorEmail": "Administrator email"
     }
 }
