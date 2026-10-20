@@ -237,8 +237,12 @@
                     <div class="min-w-0">
                       <label class="mb-2 block text-[13px] font-medium text-slate-700">{{ t('search.target.parameter')
                         }}</label>
-                      <el-radio-group v-model="form.targetParameter" class="flex flex-wrap gap-x-5 gap-y-1">
-                        <el-radio v-for="parameter in targetParameters" :key="parameter.value" :value="parameter.value">
+                      <el-radio-group
+                        v-model="form.targetParameter"
+                        class="!flex !w-full !flex-col !items-start gap-y-2 [&_.el-radio]:!mr-0 [&_.el-radio]:!inline-flex [&_.el-radio]:min-w-0 [&_.el-radio__label]:whitespace-normal [&_.el-radio__label]:leading-5"
+                      >
+                        <el-radio class="min-w-0" value="">{{ t('search.any') }}</el-radio>
+                        <el-radio v-for="parameter in targetParameters" :key="parameter.value" class="min-w-0" :value="parameter.value">
                           {{ parameter.label }}
                         </el-radio>
                       </el-radio-group>
