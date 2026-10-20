@@ -23,7 +23,7 @@
     "database": {
         "heroAlt": "Underground hydrogen storage research",
         "eyebrow": "Database overview / current coverage",
-        "title": "Explore the experiments currently collected",
+        "title": "Explore the experiments currently collected in UHSD",
         "intro": "The current database curates contact-angle measurements from pore-scale studies related to underground hydrogen storage. Records can be searched by sample composition, fluid conditions, and experimental temperature and pressure, with advancing and receding contact angles as outcomes.",
         "metrics": { "records": "Experimental records", "sources": "Literature sources", "outcomes": "Available outcome types", "temperature": "Temperature range" },
         "coverageTitle": "Current database coverage",
@@ -49,7 +49,7 @@
         "experiment": "Experimental conditions",
         "contactAngleMethod": "Contact-angle measurements",
         "scopeNote": "Porosity, permeability, gas composition, and salinity are not yet included as searchable fields. Other outcome types such as density, viscosity, and capillary pressure currently have no queryable records.",
-        "browse": "Browse database records"
+        "searchData": "Browse database records"
     },
     "search": {
         "parameterIndex": {
@@ -76,7 +76,6 @@
                 "biologyBacteria": { "name": "Biology / bacteria" }
             },
             "select": "Set conditions",
-            "browseAll": "Browse all current records",
             "noParameterData": "No records for this result parameter are currently in the curated dataset. You can still set the conditions.",
             "searchPrompt": "Set filters above and select Search to display matching results here.",
             "back": "Back to result selection",

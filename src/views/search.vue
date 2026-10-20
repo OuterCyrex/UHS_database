@@ -30,11 +30,6 @@
         </section>
       </div>
 
-      <div class="mt-12 flex flex-col gap-3 border-t border-slate-200 pt-5 text-sm text-slate-500 sm:flex-row sm:items-center sm:justify-end">
-        <RouterLink to="/search/conditions" class="w-fit border-b border-slate-400 pb-1 font-medium text-slate-700 hover:border-cyan-800 hover:text-cyan-800">
-          {{ t('search.parameterIndex.browseAll') }} →
-        </RouterLink>
-      </div>
     </div>
   </div>
 </template>

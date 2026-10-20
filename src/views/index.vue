@@ -11,7 +11,7 @@
         <h1 class="mt-3 text-3xl font-semibold tracking-tight md:text-5xl">{{ t('database.title') }}</h1>
         <RouterLink to="/search"
           class="mt-7 inline-flex min-w-44 items-center justify-center gap-3 bg-cyan-800 px-6 py-3 text-sm font-medium text-white transition hover:bg-cyan-700">
-          {{ t('database.browse') }} <span aria-hidden="true">&rarr;</span>
+          {{ t('database.searchData') }} <span aria-hidden="true">&rarr;</span>
         </RouterLink>
       </div>
     </section>
@@ -47,10 +47,6 @@
             t('database.measurementsTitle') }} — </span>{{ t('database.advancingAngle') }} {{ advancingRange }}°; {{
                 t('database.recedingAngle') }} {{ recedingRange }}°</p>
 
-          <RouterLink to="/search"
-            class="mt-7 inline-flex items-center gap-2 text-sm font-medium text-cyan-800 hover:text-cyan-600">
-            {{ t('database.browse') }} <span aria-hidden="true">&rarr;</span>
-          </RouterLink>
         </article>
       </div>
     </section>

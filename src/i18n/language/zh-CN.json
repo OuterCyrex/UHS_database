@@ -23,7 +23,7 @@
     "database": {
         "heroAlt": "地下储氢研究场景",
         "eyebrow": "数据库概况 / 当前收录",
-        "title": "从已收录实验数据开始探索",
+        "title": "从地下储氢数据库中已收录实验数据开始探索",
         "intro": "当前数据库整理了地下储氢相关孔隙尺度实验中的接触角数据。可按样品组成、流体条件和实验温压筛选记录，并查看前进与后退接触角。",
         "metrics": { "records": "实验记录", "sources": "文献来源", "outcomes": "已覆盖结果类型", "temperature": "实验温度范围" },
         "coverageTitle": "当前数据收录",
@@ -49,7 +49,7 @@
         "experiment": "实验条件",
         "contactAngleMethod": "接触角数据",
         "scopeNote": "孔隙度、渗透率、气体组成、盐度等条件字段尚未纳入当前数据表；密度、黏度、毛细压力等其他结果类型也暂时没有可查询记录。",
-        "browse": "浏览数据库记录"
+        "searchData": "浏览数据库记录"
     },
     "search": {
         "parameterIndex": {
@@ -76,7 +76,6 @@
                 "biologyBacteria": { "name": "生物作用 / 细菌" }
             },
             "select": "选择条件",
-            "browseAll": "浏览当前全部记录",
             "noParameterData": "当前整理的数据集中暂无该结果参数的记录；条件仍可先行设置。",
             "searchPrompt": "设置上方筛选条件并点击“搜索”，结果将在此显示。",
             "back": "返回结果选择",

@@ -23,7 +23,7 @@
         <el-button class="m-2" link>
           <span class="text-lg text-white">{{ t('home.buttons.language.title') }}</span>
           <el-icon class="el-icon--right">
-            <ArrowDown />
+            <ArrowDown class="text-white"/>
           </el-icon>
         </el-button>
 
