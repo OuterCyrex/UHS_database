@@ -1,27 +1,27 @@
 <template>
   <header
     class="fixed inset-x-0 top-0 z-50 flex h-16 items-center justify-between px-8 py-4 border-b transition-colors duration-300"
-    :class="shouldShowBackground ? 'bg-gray-100 border-gray-200' : 'bg-transparent border-transparent'">
-    <div class="text-2xl font-semibold text-mist-500">
+    :class="shouldShowBackground ? 'bg-cyan-700 border-cyan-800' : 'bg-transparent border-transparent'">
+    <div class="text-2xl font-semibold text-white">
       {{ t('home.title') }}
     </div>
 
     <div class="flex gap-3">
       <el-button link @click="goToHome">
-        <span class="text-lg">{{ t('home.buttons.home') }}</span>
+        <span class="text-lg text-white">{{ t('home.buttons.home') }}</span>
       </el-button>
 
       <el-button link @click="goToSearch">
-        <span class="text-lg">{{ t('home.buttons.search') }}</span>
+        <span class="text-lg text-white">{{ t('home.buttons.search') }}</span>
       </el-button>
 
       <el-button link>
-        <span class="text-lg">{{ t('home.buttons.about') }}</span>
+        <span class="text-lg text-white">{{ t('home.buttons.about') }}</span>
       </el-button>
 
       <el-dropdown>
         <el-button class="m-2" link>
-          <span class="text-lg">{{ t('home.buttons.language.title') }}</span>
+          <span class="text-lg text-white">{{ t('home.buttons.language.title') }}</span>
           <el-icon class="el-icon--right">
             <ArrowDown />
           </el-icon>
