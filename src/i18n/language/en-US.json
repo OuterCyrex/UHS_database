@@ -22,9 +22,71 @@
     },
     "search": {
         "title": "Search the UHS database",
-        "description": "Filter multi-scale UHS parameters by sample, fluid system and experimental conditions.",
-        "results": "records",
-        "empty": "No records match the current filters.",
+        "filter": "Filter",
+    "any": "Any",
+    "groups": {
+      "solid": { "title": "Solid sample"},
+      "fluid": { "title": "Fluid system"},
+      "conditions": { "title": "Experimental conditions"}
+    },
+    "fields": {
+      "rockType": "Rock type", "mineralComposition": "Mineral composition", "porosity": "Porosity",
+      "permeability": "Permeability", "effectiveStress": "Effective stress", "gasPhase": "Gas phase",
+      "liquidPhase": "Liquid phase", "brineSalinity": "Brine salinity", "ionicStrength": "Ionic strength",
+      "hydrogenFraction": "Hydrogen fraction", "oilType": "Oil type", "temperature": "Temperature",
+      "pressure": "Pressure", "saturation": "Saturation", "measurementMethod": "Measurement method"
+    },
+    "rocks": { "sandstone": "Sandstone", "carbonate": "Carbonate", "shale": "Shale", "coal": "Coal" },
+    "minerals": { "quartz": "Quartz (%)", "calcite": "Calcite (%)", "dolomite": "Dolomite (%)", "clay": "Clay (%)", "feldspar": "Feldspar (%)" },
+    "fluids": { "brine": "Brine", "water": "Water", "oil": "Oil" },
+    "oils": { "crude": "Crude oil", "diesel": "Diesel", "other": "Other / unspecified" },
+    "methods": { "contactAngle": "Contact angle", "coreFlooding": "Core flooding", "simulation": "Numerical simulation", "other": "Other" },
+    "placeholders": { "value": "Enter value" },
+    "target": {
+      "title": "Target output",
+      "category": "Result category", "parameter": "Target parameter", "chooseParameter": "Select one parameter",
+      "solid": "Solid properties", "fluid": "Fluid properties", "interaction": "Solid-fluid interactions",
+      "similar": "Closest conditions", "exact": "Exact match"
+    },
+    "parameters": {
+      "porosity": "Porosity", "permeability": "Permeability", "effectiveStress": "Effective stress",
+      "density": "Density", "viscosity": "Viscosity", "solubility": "Solubility",
+      "diffusivity": "Diffusivity", "interfacialTension": "Interfacial tension",
+      "contactAngle": "Contact angle / wettability", "capillaryPressure": "Capillary pressure",
+      "relativePermeability": "Relative permeability", "adsorption": "Adsorption / desorption",
+      "chemicalReaction": "Chemical reactions"
+    },
+    "reset": "Reset criteria",
+    "submit": "Search data",
+    "results": "records",
+    "empty": "No records match the current filters.",
+    "resultsTitle": "Search results",
+    "resultColumns": {
+      "parameter": "Parameter",
+      "value": "Value",
+      "conditions": "Conditions",
+      "source": "Source",
+      "actions": "Details"
+    },
+    "emptyTitle": "No results to display",
+    "collapseFilters": "Collapse filters",
+    "expandFilters": "Expand filters",
+    "resultCount": "{count} records",
+    "sourceReference": "Ref. {reference}",
+    "previousPage": "Previous",
+    "nextPage": "Next",
+    "pageSizeLabel": "Rows per page",
+    "pageIndicator": "Page {current} of {total}",
+    "detailsButton": "Details",
+    "detailTitle": "Measurement details",
+    "detailFields": {
+      "reference": "Reference",
+      "toc": "TOC",
+      "ionicStrength": "Brine ionic strength",
+      "oil": "Oil",
+      "advancingAngle": "Advancing contact angle (θA)",
+      "recedingAngle": "Receding contact angle (θR)"
+    },
         "filters": {
             "title": "Query filters",
             "reset": "Reset",
